@@ -8,74 +8,92 @@
   </head>
   <body>
     <!-- Static file with forms. This is to set up the forms in Netlify (next js will render on req, not at build time) -->
+
     <form
       accept-charset="utf-8"
       action="/contact-submitted"
+      aria-describedby=""
+      class="plasmic_default__all plasmic_default__form root_reset_afpau8wXKNTv83inxrqmKN plasmic_default_styles plasmic_mixins plasmic_tokens ContactForm__contactForm__fiYpR __wab_instance Contact__contactForm___7IPs7"
       data-netlify="true"
+      id="contact-form"
       method="POST"
       name="contact-form"
       role="form"
     >
-      <div class="__wab_flex-container">
-        <div
-          class="plasmic_default__all plasmic_default__div __wab_text ContactForm__text__stNoD"
+      <h3
+        class="plasmic_default__all plasmic_default__h3 __wab_text ContactForm__h3__d2Bud"
+      >
+        Get in touch
+      </h3>
+      <label
+        class="plasmic_default__all plasmic_default__label __wab_text ContactForm__label___6Yrqb"
+        >Name</label
+      ><input
+        type="text"
+        class="plasmic_default__all plasmic_default__input ContactForm__textInput__gdGrf"
+        id="name"
+        name="name"
+        placeholder=""
+        size="1"
+        value=""
+      /><label
+        class="plasmic_default__all plasmic_default__label __wab_text ContactForm__label__p2Wof"
+        >Email</label
+      ><input
+        type="text"
+        class="plasmic_default__all plasmic_default__input ContactForm__textInput__vi6R"
+        id="email"
+        name="email"
+        placeholder=""
+        size="1"
+        value=""
+      /><label
+        class="plasmic_default__all plasmic_default__label __wab_text ContactForm__label__ybjno"
+        >Message</label
+      ><textarea
+        class="plasmic_default__all plasmic_default__textarea ContactForm__textarea__qyMsw"
+        id="message"
+        name="message"
+      ></textarea>
+      <div
+        class="plasmic_default__all plasmic_default__div ContactForm__freeBox__mpSsf"
+      >
+        <button
+          class="plasmic_default__all plasmic_default__button root_reset_afpau8wXKNTv83inxrqmKN plasmic_default_styles plasmic_mixins plasmic_tokens Button__root___3E95 Button__rootcolor_blue___3E95SjsQz Button__rootshape_rounded___3E952EspH Button__rootshape_rounded_showEndIcon___3E952EspH7X2ON Button__rootshowEndIcon___3E957X2ON __wab_instance ContactForm__button__sfmLw"
         >
-          Start en dialog med oss - formuläret mailas till oss och vi återkommer
-          till den adress du anger.
-        </div>
-        <div
-          class="plasmic_default__all plasmic_default__div ContactForm__freeBox__ey8Cn"
-        >
-          <div
-            class="plasmic_default__all plasmic_default__div ContactForm__freeBox__wd3Gi"
-          >
-            <div class="__wab_flex-container">
-              <input
-                class="plasmic_default__all plasmic_default__input ContactForm__textInput__xjOz"
-                id="name"
-                name="name"
-                placeholder="Förnamn"
-                size="1"
-                type="text"
-                value=""
-              /><input
-                class="plasmic_default__all plasmic_default__input ContactForm__textInput__cc22K"
-                id="surname"
-                name="surname"
-                placeholder="Efternamn"
-                size="1"
-                type="text"
-                value=""
-              />
-            </div>
-          </div>
-          <input
-            class="plasmic_default__all plasmic_default__input ContactForm__textInput__pAmtw"
-            id="email"
-            name="email"
-            placeholder="Email"
-            size="1"
-            type="text"
-            value=""
-          /><textarea
-            class="plasmic_default__all plasmic_default__textarea ContactForm__textarea__s77O2"
-            id="message"
-            name="message"
-            placeholder="Meddelande"
-          ></textarea
-          ><button
-            class="plasmic_default__all plasmic_default__button ContactForm__button__h7RZz"
-            type="submit"
-          >
-            <div class="__wab_flex-container">
+          <div class="__wab_flex-container">
+            <div
+              class="plasmic_default__all plasmic_default__div Button__contentContainer___20I4P Button__contentContainershape_rounded___20I4P2EspH Button__contentContainershowEndIcon___20I4P7X2ON"
+            >
               <div
-                class="plasmic_default__all plasmic_default__div __wab_text ContactForm__text___2OlQb"
+                class="__wab_slot Button__slotTargetChildren__cZvzB Button__slotTargetChildrencolor_blue__cZvzBSjsQz Button__slotTargetChildrenshape_rounded__cZvzB2EspH Button__slotTargetChildrenshowEndIcon__cZvzB7X2ON"
               >
-                Skicka
+                <div class="__wab_slot-string-wrapper">Send</div>
               </div>
             </div>
-          </button>
-        </div>
+            <div
+              class="plasmic_default__all plasmic_default__div Button__endIconContainer__x4I9 Button__endIconContainershowEndIcon__x4I97X2ON"
+            >
+              <div
+                class="__wab_slot Button__slotTargetEndIcon___2H3Se Button__slotTargetEndIconshowEndIcon___2H3Se7X2ON"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="plasmic-default__svg plasmic_default__all plasmic_default__svg ContactForm__svg__eLhyM icon"
+                  viewBox="0 0 24 24"
+                  height="1em"
+                  width="1em"
+                  style="fill: currentcolor"
+                  role="img"
+                >
+                  <path
+                    d="M18.055 10.522V6.016L24.039 12l-5.984 5.984v-4.506H-.039v-2.957h18.094z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </button>
       </div>
     </form>
   </body>
